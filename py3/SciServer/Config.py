@@ -22,10 +22,10 @@ Although these parameters must be set/defined by the admin or user before the in
 """
 # URLs for accessing SciServer web services (API endpoints)
 CasJobsRESTUri = "https://casjobs.sciserver.mpe.mpg.de/CasJobs/RestApi"
-AuthenticationURL = "https://apps.sciserver.mpe.mpg.de/login-portal/keystone/v3/tokens"
+AuthenticationURL = "https://sciserver.mpe.mpg.de/login-portal/keystone/v3/tokens"
 SkyQueryUrl = "http://voservices.net/skyquery/Api/V1"
 SkyServerWSurl = "https://casjobs.sciserver.mpe.mpg.de"
-RacmApiURL = "https://apps.sciserver.mpe.mpg.de/racm"
+RacmApiURL = "https://sciserver.mpe.mpg.de/racm"
 DataRelease = "DR15"
 KeystoneTokenPath =  "/home/idies/keystone.token" #the path to the file containing the user's keystone token is hardcoded in the sciserver-compute environment
 version = "sciserver-MPE-v2.0.13" #sciserver release version
