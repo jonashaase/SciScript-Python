@@ -21,10 +21,10 @@ Although these parameters must be set/defined by the admin or user before the in
 - **Config.version**: defines the SciServer release version tag (string), to which this package belongs. E.g., "sciserver-v1.9.3"
 """
 # URLs for accessing SciServer web services (API endpoints)
-CasJobsRESTUri = "https://casjobs.sciserver.mpe.mpg.de/CasJobs/RestApi"
+CasJobsRESTUri = "https://sciserver.mpe.mpg.de/CasJobs/RestApi"
 AuthenticationURL = "https://sciserver.mpe.mpg.de/login-portal/keystone/v3/tokens"
 SkyQueryUrl = "http://voservices.net/skyquery/Api/V1"
-SkyServerWSurl = "https://casjobs.sciserver.mpe.mpg.de"
+SkyServerWSurl = "https://sciserver.mpe.mpg.de/CasJobs/"
 RacmApiURL = "https://sciserver.mpe.mpg.de/racm"
 DataRelease = "DR15"
 KeystoneTokenPath =  "/home/idies/keystone.token" #the path to the file containing the user's keystone token is hardcoded in the sciserver-compute environment

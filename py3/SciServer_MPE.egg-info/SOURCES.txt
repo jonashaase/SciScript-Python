@@ -1,0 +1,14 @@
+setup.py
+SciServer/Authentication.py
+SciServer/CasJobs.py
+SciServer/Config.py
+SciServer/Files.py
+SciServer/Jobs.py
+SciServer/LoginPortal.py
+SciServer/SkyQuery.py
+SciServer/SkyServer.py
+SciServer/__init__.py
+SciServer_MPE.egg-info/PKG-INFO
+SciServer_MPE.egg-info/SOURCES.txt
+SciServer_MPE.egg-info/dependency_links.txt
+SciServer_MPE.egg-info/top_level.txt
